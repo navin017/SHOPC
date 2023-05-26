@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+.App-header{
+    margin-top: auto;
+    padding: 2%;
+    background-color: rgb(13, 94, 165);
+    -webkit-text-fill-color: aliceblue;
+}
+.AdminButton{
+    background-color: rgb(13, 94, 165);
+    color: #ffffff;
+    border-radius: 20px;
+    border : none;
+    float: right;   
+    cursor: pointer;
+ } 
+.top{
+    margin-bottom: 1%;
+}
+.cover{
+    border: solid black;
+    width: 25%;
+    padding: 3% 4% 3% 2%;
+    margin:auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+    
+    position: absolute;
+    box-shadow: 100px 500px 800px 700px rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  top:45%;
+  left:50%;
+
+}
+
+.LoginCover{
+    border: solid black;
+    width: 25%;
+    padding: 3% 4% 3% 2%;
+    margin:auto;
+    margin-top: 2%;
+    
+}
+.logTable{
+    margin-left: 13%;
+}
+.validity{
+    color: red;
+}
+.id,.quantity,.pname{
+  width: 110%;
+  height: 23px;
+}
+.size{
+    width: 111%;
+  height: 30px;
+}
+.currency{
+    padding:2%;
+}
+.price{
+    width: 75%;
+    height: 23px;
+    margin-left: 5%;
+}
+.submit-btn,.login-btn{
+    
+
+        margin-top: 5% ;
+        
+       margin-left: 29% ;
+       background-color: #5e69ff;
+       color: #ffffff;
+       padding: 2% 20% 2% 20%;
+       border-radius: 20px;
+       border : none;
+}
+.email,.password{
+    width: 160%;
+    height: 23px;
+}

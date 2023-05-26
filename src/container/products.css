@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+.components{
+    position:relative;
+    margin:5%;
+    padding: 1%;
+    border: 2px solid black;  
+    width:15%;
+    height:200px;
+}
+.content{
+   position: absolute;
+    bottom: 0px;
+    list-style: none;
+    padding-bottom:6%;
+}
+.modify{
+    display: flex;
+}
+.view-btn{
+    background-color: #5e69ff;
+    color: #ffffff;
+    padding: 2% 20% 2% 20%;
+    border-radius: 6px;
+    border : none;
+    margin-right: 50%;
+}
+.css-i4bv87-MuiSvgIcon-root {
+    border-color: rgb(9, 15, 13)!important;
+}
